@@ -43,6 +43,12 @@ button {
     font-weight: 400;
     text-transform: capitalize;
 }
+.section-subtitle {
+    display: block;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 .section-title::after {
     position: absolute;
     content: "";
@@ -164,4 +170,28 @@ position: absolute;
     top: 40px;
     right: -140px;
     background: url(../img/banner.png) 0% 0%/contain no-repeat;
+}
+/* ABOUT */
+
+.about-section {
+    padding: 126px 0 81px;
+}
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.about-img {
+    width: 50%;
+}
+.about {
+    max-width: 570px;
+}
+.about__subtitle {
+    margin: 3px 0 6px;
+}
+.about__text {
+    margin-bottom: 35px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
