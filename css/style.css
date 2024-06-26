@@ -365,3 +365,69 @@ button {
 .feedback__position {
     font-size: 20px;
 }
+/*Blog*/
+#blog-section {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.blog__subtitle {
+    margin: 2px 0 43px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* News */
+#news-section {
+    padding-bottom: 120px;
+}
+
+.news-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.news-img {
+    width: 50%;
+}
+
+.news__text {
+    margin: 24px 0 37px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.news-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #3D3017;
+    border-radius: 5px;
+}
+
+.news-form__input {
+    flex-grow: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: inherit;
+    font: inherit;
+    background-color: transparent;
+}
+
+.news-form__input::placeholder {
+    color: #000;
+}
+
+.news-form__btn {
+    width: 53px;
+    height: 51px;
+    background: #3D3017 url(../img/envelope.svg) 50%/26px 20px no-repeat;
+    border-radius: 5px;
+}
+/*Footer*/
