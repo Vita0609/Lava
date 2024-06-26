@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;600&family=Poppins:wght@400;500&display=swap');
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     color: #000;
     font: 400 16px 'Fahkwang', Arial, Helvetica, sans-serif;
-     background-color: #F9F3EE;
+    background-color: #F9F3EE;
 }
+
 a {
     color: inherit;
     text-decoration: none;
     transition: .4s;
 }
-ul  li {
+
+ul li {
     list-style: none;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
 }
+
 button {
     display: block;
     border: none;
@@ -30,11 +35,13 @@ button {
     transition: .4s;
     cursor: pointer;
 }
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .section-title {
     position: relative;
     display: inline-flex;
@@ -43,12 +50,14 @@ button {
     font-weight: 400;
     text-transform: capitalize;
 }
+
 .section-subtitle {
     display: block;
     font-size: 42px;
     font-weight: 600;
     text-transform: capitalize;
 }
+
 .section-title::after {
     position: absolute;
     content: "";
@@ -59,6 +68,7 @@ button {
     background: #9B6842;
     transform: translate(-50%);
 }
+
 .btn-primary {
     display: inline-flex;
     padding: 15px 25px;
@@ -71,13 +81,16 @@ button {
 .btn-primary:hover {
     background-color: #9B6842;
 }
+
 /* banner */
 .banner-wrap {
-position: relative;
-overflow: hidden;
-padding-top: 13px;
-background-color: rgba(204, 183, 167, 0.25);;
+    position: relative;
+    overflow: hidden;
+    padding-top: 13px;
+    background-color: rgba(204, 183, 167, 0.25);
+    ;
 }
+
 .banner-wrap::before {
     position: absolute;
     content: '';
@@ -97,33 +110,41 @@ background-color: rgba(204, 183, 167, 0.25);;
     height: 44%;
     background: url(../img/banner-bg-left.png) 0% 100%/contain no-repeat;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
 }
+
 .header-logo__img {
     width: 86px;
     height: 66px;
 }
+
 .nav-main {
     margin: 0 140px 0 auto;
 }
+
 .nav-main__list {
     display: flex;
     gap: 30px;
 }
+
 .nav-main__link {
     font-weight: 600;
 }
+
 .nav-main__link_selected {
     text-decoration: underline;
     cursor: default;
 }
+
 .nav-main__link:not(.nav-main__link_selected):hover {
-color: #9B6842;
+    color: #9B6842;
 }
+
 .cart-btn {
     position: relative;
     width: 19px;
@@ -131,8 +152,9 @@ color: #9B6842;
     padding-right: 8px;
     background: url(../img/badge.svg) 50%/100% no-repeat;
 }
+
 .cart-btn__badge {
-position: absolute;
+    position: absolute;
     top: 2px;
     right: -8px;
     display: flex;
@@ -145,24 +167,29 @@ position: absolute;
     font: 500 8px 'Poppins', Arial, Helvetica, sans-serif;
     background-color: #BC0202;
 }
+
 #banner-section {
     position: relative;
     overflow: hidden;
     padding: 243px 0 318px;
 }
+
 .banner {
     max-width: 589px;
 }
+
 .banner__subtitle {
     display: block;
     margin: 8px 0 15px;
     font-size: 60px;
     font-weight: 600;
 }
+
 .banner__text {
     margin-bottom: 35px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+
 .banner-img {
     position: absolute;
     width: 60%;
@@ -171,40 +198,76 @@ position: absolute;
     right: -140px;
     background: url(../img/banner.png) 0% 0%/contain no-repeat;
 }
+
 /* ABOUT */
 
 .about-section {
     padding: 126px 0 81px;
 }
+
 .about-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
+
 .about-img {
     width: 50%;
 }
+
 .about {
     max-width: 570px;
 }
+
 .about__subtitle {
     margin: 3px 0 6px;
 }
+
 .about__text {
     margin-bottom: 35px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+
 /* shop */
-.shop-section {
+#shop-section {
     padding-bottom: 120px;
     text-align: center;
 }
+
 .shop__subtitle {
     margin: 2px 0 44px;
 }
+
 .shop-wrap {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+}
+.shop__img {
+    width: 270px;
+    height: 304px;
+}
+.shop__name {
+    display: block;
+    margin: 20px 0 10px;
+    font-size: 20px;
+    }
+.shop__price {
+    display: block;
+    font-size: 20px;
+}
+
+.shop__btn {
+    margin: 25px auto 0;
+    padding: 15px 25px;
+    border: 1px solid #3D3017;
+    color: #3D3017;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.shop__btn:hover {
+    color: #FFF;
+    background-color: #3D3017;
 }
