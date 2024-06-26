@@ -195,3 +195,16 @@ position: absolute;
     margin-bottom: 35px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+/* shop */
+.shop-section {
+    padding-bottom: 120px;
+    text-align: center;
+}
+.shop__subtitle {
+    margin: 2px 0 44px;
+}
+.shop-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
